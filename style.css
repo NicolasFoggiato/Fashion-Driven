@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  overflow-x: hidden;
+}
+.conteudo {
+  width: 100vw;
+  display: flex;
+  box-sizing: border-box;
+}
+.logo {
+  width: 100vw;
+  background-color: #404eed;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin-top: 0%;
+  padding: 0%;
+}
+.logo img {
+  margin-left: 50px;
+}
+main {
+  width: 50vw;
+  height: 790px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+aside {
+  width: 50vw;
+  height: 790px;
+  background-color: #404eed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+aside img {
+  width: 100%;
+  max-width: 600px;
+}
+.containermodel {
+  background-color: white;
+  width: 400px;
+  height: 790px;
+  margin: 0 90px;
+  margin-top: 0%;
+}
+.model {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.tshirt,
+.camiseta,
+.mangalonga {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.selecionado {
+  border-radius: 50px;
+  border: 3px solid #404eed;
+}
+
+p {
+  margin: 0px;
+  padding-top: 30px;
+}
+.titulo1 {
+  padding: 30px 0;
+}
+.titulo {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.golinha img {
+  height: 70px;
+  width: 80px;
+}
+input {
+  width: 395px;
+  height: 40px;
+  border-radius: 10px;
+  outline-style: none;
+  border-style: none;
+  background: #dbc6c6;
+  display: flex;
+  align-items: center;
+}
+button {
+  cursor: pointer;
+  width: 395px;
+  height: 40px;
+  border-radius: 10px;
+  background: #404eed;
+  font-size: 20px;
+  color: white;
+}
+.botaovermelho {
+  background: gray;
+}
+.botao {
+  margin-top: 20px;
+  width: 395px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  width: 100vw;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pedidosserver {
+  width: 77vw;
+  display: flex;
+  justify-items: start;
+  padding-bottom: 15px;
+  font-size: 24px;
+  margin-left: 20px;
+}
+.creator {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.userc {
+  font-size: 20px;
+}
+.roupas p {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.roupas img {
+  width: 150px;
+  height: 150px;
+  margin: 0px 10px;
+}
+.roupas {
+  width: 78vw;
+  display: flex;
+  justify-content: space-between;
+  overflow-x: scroll;
+  height: 200px;
+}
+.roupascontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.roupa1 {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+}
+@media (max-width: 800px) {
+  aside {
+    display: none;
+  }
+  main {
+    width: 100vw;
+  }
+  footer {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .roupas {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: visible;
+  }
+
+  .pedidosserver {
+    justify-content: center;
+
+    width: 100vw;
+  }
+}
